@@ -3,3 +3,4 @@ c:\users\jacob lancaster\documents\visual studio 2015\Projects\BARTVoice noGUI\B
 c:\users\jacob lancaster\documents\visual studio 2015\Projects\BARTVoice noGUI\BARTVoice noGUI\bin\Debug\BARTVoice noGUI.pdb
 c:\users\jacob lancaster\documents\visual studio 2015\Projects\BARTVoice noGUI\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.exe
 c:\users\jacob lancaster\documents\visual studio 2015\Projects\BARTVoice noGUI\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.pdb
+C:\Users\Jacob Lancaster\documents\visual studio 2015\Projects\BARTVoice noGUI\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.csprojResolveAssemblyReference.cache
