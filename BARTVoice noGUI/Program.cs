@@ -47,8 +47,9 @@ namespace BARTVoice_noGUI
                 Console.WriteLine("error " + reader.Value);
 
             }
-            else if (reader.ReadToFollowing("etd"))
+            else 
             {
+                reader.ReadToFollowing("etd");
                 //If there is not an error, read all the info and put it in the array trainArray
                 reader.Read();
                 reader.Read();
@@ -59,7 +60,7 @@ namespace BARTVoice_noGUI
                 trainArray[2]= reader.Value;
                 reader.ReadToFollowing("length");
                 reader.Read();
-                trainArray[3] = reader.Value;
+                //trainArray[3] = reader.Value;
                 //Calls the method that dispalys the info
                 dispalyTrainInfo(trainArray);
             }
@@ -72,7 +73,7 @@ namespace BARTVoice_noGUI
             Console.WriteLine("You are currently at " + array[0] + " station");
             Console.WriteLine("This train is headed for " + array[1]);
             Console.WriteLine("It will arrive in " + array[2] + "minutes");
-            Console.WriteLine("It is" + array[3] +" cars in length");
+            //Console.WriteLine("It is" + array[3] +" cars in length");
 
         }
 
