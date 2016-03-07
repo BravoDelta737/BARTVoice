@@ -1,0 +1,8 @@
+go to station name and get info about the current station (not really necessary)
+
+in a method (){
+    go to etd (this holds x amount of trains going to the same place)
+    //each individual train is held within the estimate tag
+    then go get the destination of said train
+    after that get the arrival time, platform, and length
+}

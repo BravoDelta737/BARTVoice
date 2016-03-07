@@ -25,8 +25,10 @@ namespace BARTVoice_noGUI
             XmlTextReader reader = new XmlTextReader(URLString);
             SpeechSynthesizer synth = new SpeechSynthesizer();
             gatherInfo(reader);
-            gatherInfo(reader);
+            reader.ResetState();
             Console.ReadKey();
+            gatherInfo(reader);
+            
             
 
             
