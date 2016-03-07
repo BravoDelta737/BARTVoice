@@ -25,6 +25,7 @@ namespace BARTVoice_noGUI
             XmlTextReader reader = new XmlTextReader(URLString);
             SpeechSynthesizer synth = new SpeechSynthesizer();
             gatherInfo(reader);
+            gatherInfo(reader);
             Console.ReadKey();
             
 
@@ -38,20 +39,24 @@ namespace BARTVoice_noGUI
             reader.Read();
             reader.Read();
             trainArray[0] = reader.Value;
-
+            Console.WriteLine(reader.LinePosition);
+            //The loop is doing something to the reader. It works without it
             //Checks for an error message in the XML
-            if (reader.ReadToFollowing("error"))
+            /*if (reader.ReadToFollowing("error"))
             {
                 //Moves the reader off the element error and puts it on the text inside the element
                 reader.Read();//Reads the text(in this case, the error)
-                Console.WriteLine("error " + reader.Value);
+                Console.WriteLine("error " + reader.Value);*/
 
-            }
-            else 
-            {
+           // }
+            //else 
+            //{
+                
+                //Don't think read to following method is working
                 reader.ReadToFollowing("etd");
                 //If there is not an error, read all the info and put it in the array trainArray
-                reader.Read();
+                Console.WriteLine(reader.LinePosition); 
+                reader.ReadToDescendant("destination");
                 reader.Read();
                 //May not be reading the right information!!!
                 trainArray[1] = reader.Value;//Stores the value of the 
@@ -63,7 +68,8 @@ namespace BARTVoice_noGUI
                 //trainArray[3] = reader.Value;
                 //Calls the method that dispalys the info
                 dispalyTrainInfo(trainArray);
-            }
+            //}
+           
 
         }
 
@@ -72,7 +78,7 @@ namespace BARTVoice_noGUI
             //Prints train info to the console
             Console.WriteLine("You are currently at " + array[0] + " station");
             Console.WriteLine("This train is headed for " + array[1]);
-            Console.WriteLine("It will arrive in " + array[2] + "minutes");
+            Console.WriteLine("It will arrive in " + array[2] + " minutes");
             //Console.WriteLine("It is" + array[3] +" cars in length");
 
         }

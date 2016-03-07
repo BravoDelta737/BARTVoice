@@ -10,3 +10,9 @@ C:\Users\Jacob\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\o
 C:\Users\Jacob\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\bin\Debug\BARTVoice noGUI.exe
 C:\Users\Jacob\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\bin\Debug\BARTVoice noGUI.pdb
 C:\Users\Jacob\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.csprojResolveAssemblyReference.cache
+C:\Users\Jacob Lancaster\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\bin\Debug\BARTVoice noGUI.exe.config
+C:\Users\Jacob Lancaster\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.exe
+C:\Users\Jacob Lancaster\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.pdb
+C:\Users\Jacob Lancaster\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\bin\Debug\BARTVoice noGUI.exe
+C:\Users\Jacob Lancaster\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\bin\Debug\BARTVoice noGUI.pdb
+C:\Users\Jacob Lancaster\Documents\Visual Studio 2015\Projects\BARTVoice\BARTVoice noGUI\obj\Debug\BARTVoice noGUI.csprojResolveAssemblyReference.cache
